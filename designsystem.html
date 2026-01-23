@@ -130,7 +130,7 @@
             <div class="column-xs mb-xs">
               <p class="text-s mb-s">We began our process by auditing the foundational elements used across the site. I focused on cataloging every instance of type, color, grids and inputs/controls. Thomas focused on logos and brand elements, cards, depth, and navigation patterns. Eve advised us on whether the instances we cataloged were fundamentally distinct and ran WCAG compliance checks.</p>
               <p class="text-s mb-xs"> The resulting database turned our vague impressions of our problem into insights that tightened our scope. It was clear that we had problems with visual inconsistency - there were 40+ type styles, 20+ blues, several variations of important system colors, and different grids for each feature area. But we also had instances of basic controls, inputs, and navigation patterns that were built solely for use in a particular feature, meaning that engineers on other teams had to create their own versions (adding to our technical debt). Finally, lack of ARIA labeling, keyboard navigation, and color contrast for important elements meant that we weren't accommodating users who relied on assistive technologies. These findings formed the foundation of our system work.</p>
-              <img class="mt-l" src="images/airtable.png" alt="placeholder image">
+              <img class="mt-l" src="images/airtable.png" alt="a screenshot of an spreadsheet in airtable with 5 different radio buttons and the features that distinguish them">
               <p class="text-xs mt-xs mb-l">A snapshot of radio buttons cataloged in our audit table</p>
               <p class="text-s mb-s">Next, we pinpointed specific areas that captured the content extremes of the Bandcamp experience. This grounded our investigation in the most business-critical use cases, and set us up to test the standards we were developing. I identified three key areas:</p>
             </div>
@@ -143,13 +143,13 @@
             <div class="column-xs mb-xs">
               <p class="text-s bold">Bandcamp Daily</p>
               <p class="text-s">This the cornerstone of our editorial experience. These pages accounted for a significant percentage of our type variance (they contain the most text, period) and they feature all of the major fan actions. An approach to type that preserved the hierarchy of editorial content, and distinguished it from track metadata and fan actions would be successful in almost every other context. I also knew that if I could refine and standardize the action buttons here, teams would be able to easily adapt the various control types to their unique use cases.</p>
-              <img class="mt-l" src="images/bandcamp-daily.png" alt="bandcamp "> 
+              <img class="mt-l" src="images/bandcamp-daily.png" alt="a screenshot of a Bandcamp Daily article featuring user actions, track imagery and metadata"> 
               <p class="text-xs mt-xs mb-l">A Bandcamp Daily article with various type styles</p>
             </div>
             <div class="column-xs mb-xs">
               <p class="text-s bold">Artist Tools</p>
               <p class="text-s">Features like Bandcamp Live, Vinyl, Listening Parties, and our upload portal all required users to complete multi-step forms with complex inputs. I knew that inputs themselves varied across these surfaces, but deeper exploration revealed that our approaches to signaling success/failure/saved states, progressively disclosing information, and guiding users to help docs were also inconsistent. I identified this as an opportunity to not only formalize inputs, but to investigate wayfinding practices, system colors, and various state affordances.</p>
-              <img class="mt-l" src="images/bandcamp-listening.png" alt="placeholder image">
+              <img class="mt-l" src="images/bandcamp-listening.png" alt="a screenshot of the Bandcamp music upload tool. It has several actions of varying sizes and colors and an extremely dense layout">
               <p class="text-xs mt-xs">The information and action dense album upload tool</p> 
             </div>
           </div>
