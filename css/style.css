@@ -654,11 +654,11 @@ a:hover .image-popup {
   }
 
   .text-m { 
-  font-size: var(--text-small);
+  font-size: 1.15rem;
   }
 
   .text-s { 
-  font-size: var(--text-xsmall)
+  font-size: var(--text-small)
   }
 
   #study_nav { 
@@ -711,11 +711,11 @@ a:hover .image-popup {
   }
 
   h2.text-l { 
-    font-size: var(--text-medium);
+    font-size: 1.3rem;
   }
 
   a.text-l { 
-    font-size: var(--text-medium);
+    font-size: 1.3rem;
   }
 
 }
