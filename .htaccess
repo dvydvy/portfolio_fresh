@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteRule ^index.html$ home
-RewriteRule ^designsystem.html$ designsystem
-RewriteRule ^sharedplaylist.html$ playlists
+RewriteRule index.html home
+RewriteRule designsystem.html designsystem
+RewriteRule sharedplaylist.html playlists
