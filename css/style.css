@@ -162,11 +162,6 @@ body {
   animation:spin 4s linear infinite;
 }
 
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .icon-button:hover {
   filter: invert(1);
   opacity: 80%;
@@ -517,6 +512,11 @@ margin-right: auto;
 a:hover {
   color: var(--color-white);
   background-color: var(--color-black);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 #experience-long { 
